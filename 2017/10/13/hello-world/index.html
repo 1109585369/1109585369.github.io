@@ -178,12 +178,12 @@
 <!-- Theme Background Related-->
 
     <style>
-      body{
+      body {
         background-color: #F5F5F5;
       }
 
       /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text {
         background-color: #fff;
       }
     </style>
@@ -422,7 +422,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://github.com/1109585369/yuyuan.github.io/2017/10/13/hello-world/">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC5klEQVR42u3aQXbbMAwEUN//0u0BXMszYOLK5NfKz4kkfi6CYMDHnyOvBzY2NjY2NjY2NvYt2Y/4er7r+fP1T/Nn/mPRl8+J1oyNjY29NfvNn/4Xv9O+OHny872vvqmfjI2NjX0A+9WirxeRFJvrzUp4bVHExsbGxp69pl3o9cZdF05sbGxs7E8WsOtGZSXGwsbGxsZuA5o8NpoVwjx4+miWho2NjX17dh703+fzR+fb2NjY2Ddmt9dKbDQrRe1vvnwCNjY29qbsNgBqS0gU9wQHd/K3Y2NjY2PPIqF8hNA2Hnl5e/NebGxs7E3ZbTGbDQDaQjUrjW+eiY2NjX0AuygGI0z7rvzgTj3oxcbGxt6InZeQJKzPj0UmpOTeH5hvY2NjY385O2ckS8yDqlnEvzL6xcbGxj6B3UY8KxF/3vDkm1iHStjY2NhbsPPSVcfxcbPRxlVtdIWNjY29N7uN79fDpmRb8yNBxVEhbGxs7E3ZbUnIBwlthJS0MXl7g42NjX0OO3lNfkBn1pbMgqd6OI2NjY19ADuP49sGIx/6Jps+21ZsbGzsE9jDwlCWorypyLc+aqKwsbGxN2W34U6+oCRaWilm9dZjY2NjH8NeiZZmY4aV45VFc4KNjY29KXsWCbVFa31D82NDRQeGjY2NvTU7Lxiz79uRbfvkYQHDxsbG/kJ2+y9+W97aaCk5QpQXYGxsbOwz2SufhyPYH2o/isOX2NjY2FuzZ6VrdhBzfYRQfIONjY19AHulbfiBQezCkGApVMLGxsb+cnZ7/d5yc1J75AgbGxt7b/YjvuoQJ753pRXJWylsbGzsvdl50cqDofV2IlnndTnExsbGPo3dhjX5ovNBwmN0/cqgFxsbG3trdtJ+1MsqN+U/FDBsbGzsA9j5UKFthPLSiI2NjX0yu130ymA4P9bTHhiKjuxgY2Njb8eeBTezRSTFLDkG9NH5NjY2NvaN2edc2NjY2NjY2NjY2Le5/gK6C5rdYb3tWAAAAABJRU5ErkJggg==">
     
 </ul>
 
@@ -613,8 +613,6 @@
             </a>
         </li>
         
-            <li class="divider"></li>
-        
     
 
     <!-- Archives  -->
@@ -633,8 +631,6 @@
             </ul>
         </li>
         
-            <li class="divider"></li>
-        
     
 
     <!-- Categories  -->
@@ -649,11 +645,9 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/categories/Java/">Java<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
-        
-            <li class="divider"></li>
         
     
 
@@ -667,8 +661,6 @@
                 About
             </a>
         </li>
-        
-            <li class="divider"></li>
         
     
 
@@ -899,6 +891,12 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 <!-- Bing Background -->
+
+<script type="text/ls-javascript" id="Bing-Background-script">
+    queue.offer(function(){
+        $('body').attr('data-original', 'https://api.i-meto.com/bing?[object Object]');
+    });
+</script>
 
 
 <script type="text/ls-javascript" id="lazy-load">

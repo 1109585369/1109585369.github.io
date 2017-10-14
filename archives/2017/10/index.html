@@ -178,12 +178,12 @@
 <!-- Theme Background Related-->
 
     <style>
-      body{
+      body {
         background-color: #F5F5F5;
       }
 
       /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text {
         background-color: #fff;
       }
     </style>
@@ -338,6 +338,11 @@
         </div>
         <div id="post_entry-right-info">
           
+              <!-- Category -->
+              <span class="post_entry-category">
+                  <a class="post_category-link" href="/categories/Java/">Java</a>
+              </span>
+            
 
             
 
@@ -553,8 +558,6 @@
             </a>
         </li>
         
-            <li class="divider"></li>
-        
     
 
     <!-- Archives  -->
@@ -573,8 +576,6 @@
             </ul>
         </li>
         
-            <li class="divider"></li>
-        
     
 
     <!-- Categories  -->
@@ -589,11 +590,9 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                
+                <a class="sidebar_archives-link" href="/categories/Java/">Java<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
-        
-            <li class="divider"></li>
         
     
 
@@ -607,8 +606,6 @@
                 About
             </a>
         </li>
-        
-            <li class="divider"></li>
         
     
 
@@ -839,6 +836,12 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 <!-- Bing Background -->
+
+<script type="text/ls-javascript" id="Bing-Background-script">
+    queue.offer(function(){
+        $('body').attr('data-original', 'https://api.i-meto.com/bing?[object Object]');
+    });
+</script>
 
 
 <script type="text/ls-javascript" id="lazy-load">
